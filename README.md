@@ -1,5 +1,19 @@
 # React + Vite
 
+Number and name of feature: **gallery with heart button**
+
+Estimate of time needed to complete: **4 hours**
+
+Start time: **1:00p**
+
+Finish time: **_____**
+
+Actual time needed to complete: **_____**
+
+
+# Info
+
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
