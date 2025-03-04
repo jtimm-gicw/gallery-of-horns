@@ -6,9 +6,9 @@ Estimate of time needed to complete: **4 hours**
 
 Start time: **1:00p**
 
-Finish time: **_____**
+Finish time: **9:00a**
 
-Actual time needed to complete: **_____**
+Actual time needed to complete: **4 hours**
 
 
 # Info
