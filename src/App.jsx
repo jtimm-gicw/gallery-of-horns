@@ -1,4 +1,5 @@
 import './App.css';
+import './data.json';
 import Header from './Header';
 import Gallery from './Gallery';
 import Footer from './Footer';

@@ -1,5 +1,7 @@
 # React + Vite
 
+## Feature_1 
+
 Number and name of feature: **gallery with heart button**
 
 Estimate of time needed to complete: **4 hours**
@@ -9,6 +11,18 @@ Start time: **1:00p**
 Finish time: **9:00a**
 
 Actual time needed to complete: **4 hours**
+
+## Feature_2
+
+Number and name of feature: **Display a modal**
+
+Estimate of time needed to complete: **4 hours**
+
+Start time: **1:00p**
+
+Finish time: _____
+
+Actual time needed to complete: _____
 
 
 # Info
