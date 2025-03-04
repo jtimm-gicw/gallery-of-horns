@@ -8,6 +8,7 @@ function Gallery() {
   const [likes, setLikes] = useState([0, 0]); // One counter per image
 
   const handleLike = (index) => {
+    console.log(`Image ${index} clicked`); 
     const newLikes = [...likes]; // Create a copy of the current likes array
     newLikes[index] += 1; // Increment the like count at the correct index
     setLikes(newLikes); // Update the state
