@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import Gallery from './Gallery';
 import SelectedBeast from './SelectedBeast';
 import data from './data.json'; // Import JSON data
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   const [selectedBeast, setSelectedBeast] = useState(null); // Track selected beast
