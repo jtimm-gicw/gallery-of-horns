@@ -1,15 +1,17 @@
 import './App.css';
-import './data.json';
-import Header from './Header';
+import React, { useState } from 'react';
 import Gallery from './Gallery';
-import Footer from './Footer';
+import SelectedBeast from './SelectedBeast';
+import data from './data.json'; // Import JSON data
 
 function App() {
+  const [selectedBeast, setSelectedBeast] = useState(null); // Track selected beast
+
   return (
-    <div className='App'>
-      <Header />
-        <Gallery />
-        <Footer />
+    <div>
+      <h1>Horned Beasts</h1>
+      <Gallery data={data} setSelectedBeast={setSelectedBeast} />
+      {selectedBeast && <SelectedBeast beast={selectedBeast} setSelectedBeast={setSelectedBeast} />}
     </div>
   );
 }
