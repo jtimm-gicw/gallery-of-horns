@@ -2,7 +2,9 @@ import { Modal, Button } from 'react-bootstrap';
 
 function SelectedBeast({ beast, setSelectedBeast }) {
   return (
-    <Modal show={!!beast} onHide={() => setSelectedBeast(null)}>
+    <Modal show={!!beast} onHide={() => 
+    // show={!!beast} → This makes the modal appear only if a beast is selected (!!beast means "true if beast exists").  onHide() hides the modal if clicked outside
+    setSelectedBeast(null)}>
       <Modal.Header closeButton>
         <Modal.Title>{beast?.title}</Modal.Title>
       </Modal.Header>
